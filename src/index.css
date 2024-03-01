@@ -95,6 +95,28 @@ header .shop-cart .item p {
   font-weight: 600;
 }
 
+header .shop-cart .item .delete-item {
+  color: #ca5252;
+  float: right;
+  position: relative;
+  top: -25px;
+  cursor: pointer;
+  transition: color transform 700ms ease;
+}
+
+header .shop-cart .item .delete-item.delete-item:hover {
+  color: #d83030;
+  transform: scale(1.5);
+}
+
+header .shop-cart .sum {
+  float: left;
+  width: 100%;
+  font-weight: 600;
+  font-style: 20px;
+  margin-bottom: 20px;
+}
+
 header .presentation {
   margin: 50px 0;
   background: url("./img/bg.jpg") no-repeat;
